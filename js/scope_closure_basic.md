@@ -185,14 +185,13 @@ Uncaught SyntaxError: Identifier 'name' has already been declared
 ```js
 const type = "a";
 switch (type) {
-    case "a":{
-        let name = "손기훈";
-        break;
-    }
-    case "b":{
-        let name = "kihun";
-        break;
-    }
+  case "a": {
+    let name = "손기훈";
+    break;
+  }
+  case "b": {
+    let name = "kihun";
+    break;
+  }
 }
-Uncaught SyntaxError: Identifier 'name' has already been declared
 ```
